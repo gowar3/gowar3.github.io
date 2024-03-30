@@ -10,7 +10,7 @@
                 width: 500px;
             }
 
-            form{
+            .search-form{
                 display: flex;
                 flex-direction: column;
                 margin: auto;
@@ -29,8 +29,10 @@
     </head>
     <body>
         <form action="https://google.com/search">
-            <input type="text" placeholder="Search" name="q">
-            <input style="width: 100px; margin-top: 10px;" type="submit" value="Google Search">
+            <div class="search-form">
+                <input type="text" placeholder="Search" name="q">
+                <input style="width: 100px; margin-top: 10px;" type="submit" value="Google Search">
+            </div>
         </form>
         <form action="https://www.google.com/advanced_search">
             <div class="links">
