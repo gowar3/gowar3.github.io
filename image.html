@@ -6,6 +6,17 @@
 
         <style>
 
+            .link{
+                display: flex;
+                justify-content: flex-end;
+            }
+            input[type="text"]{
+                background-color: transparent;
+                text-align: center;
+                width: 500px;
+                border-radius: 10px;
+            }
+
             .search-form{
                 display: flex;
                 flex-direction: column;
@@ -17,6 +28,13 @@
         </style>
     </head>
     <body>
+
+        <form action="https://gowar3.github.io/">
+            <div class="link">
+                <input type="submit" value="Google Advanced Search">
+            </div>
+        </form>
+
         <form action="https://google.com/images">
             <div class="search-form">
                 <input type="text" placeholder="Image Search" name="q">
