@@ -7,10 +7,10 @@
         <style>
             .search-form{
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 margin: 10px;
-                align-items: center;
-                justify-content: center;
+                align-items: left;
+                justify-content: flex-start;
                 height: 100vh;
             }
         </style>
@@ -18,8 +18,8 @@
 
     <body>
         <h1>Advanced Search</h1>
-        <h2>Find pages with ...</h2>
         <form action="https://google.com/search">
+            <h2>Find pages with ...</h2>
             <div class="search-form">
                 All these words <input type="text" name= "as_epq">
                 <input type="submit" value="Advanced Search">
