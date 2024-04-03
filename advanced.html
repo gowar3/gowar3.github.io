@@ -7,14 +7,14 @@
         <style>
             .link{
                 display: flex;
-                justify-content: flex-end;
+                justify-content: space-between;
+                align-items: start;
             }
 
             .search-form{
                 display: flex;
                 flex-direction: column;
                 margin: 10px;
-                align-items: left;
                 justify-content: flex-start;
                 height: 100vh;
             }
@@ -32,17 +32,16 @@
     <body>
         <form action="https://gowar3.github.io/">
             <div class="link">
+                <h1 style="margin-top: 10px;">Advanced Search</h1>
                 <input style="height:25px;" type="submit" value="Google Search">
             </div>
-            <h1>Advanced Search</h1>
         </form>
 
         <form action="https://google.com/search">
             <h2>Find pages with ...</h2>
             <div class="search-form">
                 <div>
-                    All these words <input type="text" name= "as_q">
-                    This exact word or phrase <input type="text" name= "as_epq">
+                    All these words <input type="text" name= "as_epq">
                 </div>
                 <input style="margin-top:10px; width:200px" type="submit" value="Advanced Search">
             </div>
