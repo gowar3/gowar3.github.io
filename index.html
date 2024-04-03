@@ -30,6 +30,11 @@
                 margin-right: 10px;
             }
 
+            .buttons{
+                display: flex;
+                flex-direction: row;
+            }
+
 
         </style>
     </head>
@@ -49,8 +54,10 @@
         <form action="https://google.com/search">
             <div class="search-form">
                 <input type="text" placeholder="Search" name="q">
-                <input style="width: 100px; margin-top: 10px;" type="submit" value="Google Search">
-                <input type="submit" value="I'm feeling lucky">
+                <div class="buttons">
+                    <input style="width: 100px; margin-top: 10px;" type="submit" value="Google Search">
+                    <input type="submit" value="I'm feeling lucky">
+                </div>
             </div>
         </form>
     </body>
