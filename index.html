@@ -35,33 +35,40 @@
                 flex-direction: row;
             }
 
+            .webpage{
+                display: flex;
+                align-items: center;
+            }
+
 
         </style>
     </head>
     <body>
-        <div class="container links">
-            <form action="https://gowar3.github.io/image.html">
-                <div class="links">
-                    <input type="submit" value="Google Image Search">
-                </div>
-            </form>
-            <form action="https://gowar3.github.io/advanced.html">
-                <div class="links">
-                    <input type="submit" value="Google Advanced Search">
+        <div class="webpage">
+            <div class="container links">
+                <form action="https://gowar3.github.io/image.html">
+                    <div class="links">
+                        <input type="submit" value="Google Image Search">
+                    </div>
+                </form>
+                <form action="https://gowar3.github.io/advanced.html">
+                    <div class="links">
+                        <input type="submit" value="Google Advanced Search">
+                    </div>
+                </form>
+            </div>
+
+
+            <form action="https://google.com/search" method="GET">
+                <div class="search-form">
+                    <h1 style="color:black; font-size:50px;">Google</h1>
+                    <input type="text" placeholder="Search" name="q">
+                    <div class="buttons">
+                        <input style="margin: 10px;" type="submit" value="Google Search" name="btnK">
+                        <input style="margin: 10px;" type="submit" value="I'm feeling lucky" name="btnI">
+                    </div>
                 </div>
             </form>
         </div>
-
-
-        <form action="https://google.com/search" method="GET">
-            <div class="search-form">
-                <h1 style="color:black; font-size:50px;">Google</h1>
-                <input type="text" placeholder="Search" name="q">
-                <div class="buttons">
-                    <input style="margin: 10px;" type="submit" value="Google Search" name="btnK">
-                    <input style="margin: 10px;" type="submit" value="I'm feeling lucky" name="btnI">
-                </div>
-            </div>
-        </form>
     </body>
 </html>
