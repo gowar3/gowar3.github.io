@@ -27,21 +27,31 @@
                 height: 100vh;
             }
 
+            .webpage{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+
         </style>
     </head>
     <body style="height:100vh;";>
-        <form action="https://gowar3.github.io/">
-            <div class="link">
-                <input type="submit" value="Google Search">
-            </div>
-        </form>
+        <div class="webpage";>
+            <form action="https://gowar3.github.io/">
+                <div class="link">
+                    <input type="submit" value="Google Search">
+                </div>
+            </form>
 
-        <form action="https://google.com/images">
-            <div class="search-form">
-                <h1 style="color:black; font-size:50px;">Google</h1>
-                <input type="text" placeholder="Image Search" name="q">
-                <input style="width: 200px; margin:10px;" type="submit" value="Image Google Search">
-            </div>
-        </form>
+            <form action="https://google.com/images">
+                <div class="search-form">
+                    <h1 style="color:black; font-size:50px;">Google</h1>
+                    <input type="text" placeholder="Image Search" name="q">
+                    <input style="width: 200px; margin:10px;" type="submit" value="Image Google Search">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
