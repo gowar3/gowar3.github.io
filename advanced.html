@@ -9,6 +9,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: start;
+                height: 70px;
             }
 
             .search-form{
@@ -16,7 +17,7 @@
                 flex-direction: column;
                 margin: 10px;
                 justify-content: flex-start;
-                height: 100vh;
+                height: calc(100vh-86px);
             }
 
             .search-form div{
@@ -61,8 +62,8 @@
         </form>
 
         <form action="https://google.com/search">
-            <h2>Find pages with ...</h2>
             <div class="search-form">
+                <h2>Find pages with ...</h2>
                 <div class="field">
                     <div class="text_field">
                         <label style="width:300px;" for="all">All these words</label>
